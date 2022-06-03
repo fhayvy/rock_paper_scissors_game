@@ -2,6 +2,7 @@ import random
 
 game_options = ["r", "p", "s"]
 
+
 game_end = False
 while not game_end:
     user_input = input(f"Please pick an option R for Rock; P for paper and S for scissors: ").lower()
